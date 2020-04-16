@@ -30,11 +30,11 @@ public class ActivitiesFragment extends Fragment {
         //Create a list of String
         final ArrayList<Information> info = new ArrayList<Information>();
 
-        info.add(new Information("Kayaking.ie", "Bullock Harbour", "www.kayaking.ie", R.drawable.ic_rowing));
-        info.add(new Information("City Kayaking", "Custom House Quay", "www.citykayaking.com", R.drawable.ic_rowing));
-        info.add(new Information("Irish Centre for Cycling", "Malahide Castle Visitor Centre", "www.irishcentreforcycling.ie", R.drawable.ic_directions_bike));
-        info.add(new Information("Black Linn Loop", "Howth Village", "www.visitdublin.com", R.drawable.ic_directions_walk));
-        info.add(new Information("The Grand Canal Way", "17/19 Lower Hatch Street", "www.visitdublin.com", R.drawable.ic_directions_walk));
+        info.add(new Information(getResources().getString(R.string.kayaking_name), getResources().getString(R.string.kayaking_address), getResources().getString(R.string.kayaking_web), R.drawable.ic_rowing));
+        info.add(new Information(getResources().getString(R.string.kayaking_city_name), getResources().getString(R.string.kayaking_city_address), getResources().getString(R.string.kayaking_city_web), R.drawable.ic_rowing));
+        info.add(new Information(getResources().getString(R.string.cycling_center_name), getResources().getString(R.string.cycling_center_address), getResources().getString(R.string.cycling_center_web), R.drawable.ic_directions_bike));
+        info.add(new Information(getResources().getString(R.string.black_linn_name), getResources().getString(R.string.black_linn_address),  getResources().getString(R.string.black_linn_web), R.drawable.ic_directions_walk));
+        info.add(new Information(getResources().getString(R.string.grand_canal_name), getResources().getString(R.string.grand_canal_address), getResources().getString(R.string.grand_canal_web), R.drawable.ic_directions_walk));
 
         //Modify the code to create an ArrayAdapter so we can recycle the TextViews and save Memory
         //Remember modify the word_list XML to create a single ListView

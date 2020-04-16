@@ -29,12 +29,12 @@ public class EatAndDrinkFragment extends Fragment {
         //Create a list of String
         final ArrayList<Information> info = new ArrayList<Information>();
 
-        info.add(new Information("Butlers Chocolate Café", "24 Wicklow Street", "www.butlerschocolates.com", R.drawable.ic_local_cafe));
-        info.add(new Information("Teddy’s Promenade Cafe", "1-2 Windsor Terrace,", "www.promenadecafe.ie", R.drawable.ic_local_cafe));
-        info.add(new Information("Chapter One Restaurant", "18-19 Parnell Square", "www.chapteronerestaurant.com", R.drawable.ic_local_dining));
-        info.add(new Information("Oliveto at Haddington House", "9 - 12 Haddington Terrace", "www.haddingtonhouse.ie", R.drawable.ic_local_dining));
-        info.add(new Information("Fitzsimons Temple Bar", "21-22 Wellington Quay", "www.fitzsimonshotel.com", R.drawable.ic_local_bar));
-        info.add(new Information("O'Neill's", "2 Suffolk Street", "www.oneillsbar.com", R.drawable.ic_local_bar));
+        info.add(new Information(getResources().getString(R.string.butlers_name), getResources().getString(R.string.butlers_address), getResources().getString(R.string.butlers_web), R.drawable.ic_local_cafe));
+        info.add(new Information(getResources().getString(R.string.teddys_name), getResources().getString(R.string.teddys_address), getResources().getString(R.string.teddys_web), R.drawable.ic_local_cafe));
+        info.add(new Information(getResources().getString(R.string.chapter_one_name), getResources().getString(R.string.chapter_one_address), getResources().getString(R.string.chapter_one_web), R.drawable.ic_local_dining));
+        info.add(new Information(getResources().getString(R.string.oliveto_name), getResources().getString(R.string.oliveto_address), getResources().getString(R.string.oliveto_web), R.drawable.ic_local_dining));
+        info.add(new Information(getResources().getString(R.string.fitz_name), getResources().getString(R.string.fitz_address), getResources().getString(R.string.fitz_web), R.drawable.ic_local_bar));
+        info.add(new Information(getResources().getString(R.string.oneill_name), getResources().getString(R.string.oneill_address), getResources().getString(R.string.oneill_web), R.drawable.ic_local_bar));
 
         //Modify the code to create an ArrayAdapter so we can recycle the TextViews and save Memory
         //Remember modify the word_list XML to create a single ListView

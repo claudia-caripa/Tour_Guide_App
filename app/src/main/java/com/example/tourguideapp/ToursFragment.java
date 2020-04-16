@@ -29,11 +29,11 @@ public class ToursFragment extends Fragment {
         //Create a list of String
         final ArrayList<Information> info = new ArrayList<Information>();
 
-        info.add(new Information("Wild Rover Tours", "33 Bachelor's Walk", "wwwwildrovertours.com"));
-        info.add(new Information("Howth Guided Tours", "8 Finlater Pub", "www.howthguidedtours.com"));
-        info.add(new Information("Public Art Walking Tours", "St. Stephen's Green", "www.publicartwalkingtours.ie"));
-        info.add(new Information("Viking Splash Tours", "St Stephen's Green North", "www.VikingSplash.com"));
-        info.add(new Information("The Kids Ghost Tour - DoDublin", "O'Connell Street", "www.dodublin.ie"));
+        info.add(new Information(getResources().getString(R.string.wild_rover_name), getResources().getString(R.string.wild_rover_address), getResources().getString(R.string.wild_rover_web)));
+        info.add(new Information(getResources().getString(R.string.howth_name), getResources().getString(R.string.howth_address), getResources().getString(R.string.howth_web)));
+        info.add(new Information(getResources().getString(R.string.art_name), getResources().getString(R.string.art_address), getResources().getString(R.string.art_web)));
+        info.add(new Information(getResources().getString(R.string.viking_name), getResources().getString(R.string.viking_address), getResources().getString(R.string.viking_web)));
+        info.add(new Information(getResources().getString(R.string.kids_ghost_name), getResources().getString(R.string.kids_ghost_address), getResources().getString(R.string.kids_ghost_web)));
 
         //Modify the code to create an ArrayAdapter so we can recycle the TextViews and save Memory
         //Remember modify the word_list XML to create a single ListView

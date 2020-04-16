@@ -1,19 +1,112 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
-
     <string name="dublin_app_name">Dublin Tour App</string>
 
     <!-- Category name for phrases [CHAR LIMIT=20] -->
     <string name="category_activities">Activities</string>
-
     <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
     <string name="category_eat_and_drink">Yummy</string>
-
     <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
     <string name="category_museums">Museums</string>
-
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_tours">Tours</string>
+
+    <!-- Strings for Activities Fragment -->
+    <string name="kayaking_name">Kayaking.ie</string>
+    <string name="kayaking_address">Bullock Harbour</string>
+    <string name="kayaking_web">www.kayaking.ie</string>
+
+    <string name="kayaking_city_name">City Kayaking</string>
+    <string name="kayaking_city_address">Custom House Quay</string>
+    <string name="kayaking_city_web">www.citykayaking.com</string>
+
+    <string name="cycling_center_name">Irish Centre for Cycling</string>
+    <string name="cycling_center_address">Malahide Castle Visitor Centre</string>
+    <string name="cycling_center_web">www.irishcentreforcycling.ie</string>
+
+    <string name="black_linn_name">Black Linn Loop</string>
+    <string name="black_linn_address">Howth Village</string>
+    <string name="black_linn_web">www.visitdublin.com</string>
+
+    <string name="grand_canal_name">The Grand Canal Way</string>
+    <string name="grand_canal_address">17/19 Lower Hatch Street</string>
+    <string name="grand_canal_web">www.visitdublin.com</string>
+
+    <!-- Strings for Eat and Drink Fragment -->
+    <string name="butlers_name">Butlers Chocolate Café</string>
+    <string name="butlers_address">24 Wicklow Street</string>
+    <string name="butlers_web">www.butlerschocolates.com</string>
+
+    <string name="teddys_name">Teddy’s Promenade Cafe</string>
+    <string name="teddys_address">1/2 Windsor Terrace</string>
+    <string name="teddys_web">www.promenadecafe.ie</string>
+
+    <string name="chapter_one_name">Chapter One Restaurant</string>
+    <string name="chapter_one_address">18/19 Parnell Square</string>
+    <string name="chapter_one_web">www.chapteronerestaurant.come</string>
+
+    <string name="oliveto_name">Oliveto at Haddington House</string>
+    <string name="oliveto_address">9/12 Haddington Terrace</string>
+    <string name="oliveto_web">www.haddingtonhouse.ie</string>
+
+    <string name="fitz_name">Fitzsimons Temple Bar</string>
+    <string name="fitz_address">21/22 Wellington Quay</string>
+    <string name="fitz_web">www.fitzsimonshotel.com</string>
+
+    <string name="oneill_name">O\'Neill\' s</string>
+    <string name="oneill_address">2 Suffolk Street</string>
+    <string name="oneill_web">www.oneillsbar.com</string>
+
+    <!-- Strings for Museums Fragment -->
+    <string name="national_museum_name">National Museum Of Ireland</string>
+    <string name="national_museum_address">Merrion Street</string>
+    <string name="national_museum_web">www.museum.ie</string>
+
+    <string name="literature_museum_name">Museum of Literature Ireland</string>
+    <string name="literature_museum_address">85/86 St. Stephens Green</string>
+    <string name="literature_museum_web">www.moli.i</string>
+
+    <string name="maritime_museum_name">National Maritime Museum Of Ireland</string>
+    <string name="maritime_museum_address">Dun Laoghaire</string>
+    <string name="maritime_museum_web">www.mariner.ie</string>
+
+    <string name="geological_museum_name">Geological Museum</string>
+    <string name="geological_museum_address">Trinity College</string>
+    <string name="geological_museum_web">www.tcd.ie</string>
+
+    <string name="leprechaun_museum_name">The National Leprechaun Museum</string>
+    <string name="leprechaun_museum_address">1 Jervis Street</string>
+    <string name="leprechaun_museum_web">www.leprechaunmuseum.ie</string>
+
+    <!-- Strings for Tours Fragment -->
+    <string name="wild_rover_name">Wild Rover Tours</string>
+    <string name="wild_rover_address">33 Bachelor\'s Walk</string>
+    <string name="wild_rover_web">www.wildrovertours.com</string>
+
+    <string name="howth_name">Howth Guided Tours</string>
+    <string name="howth_address">8 Finlater Pub</string>
+    <string name="howth_web">www.howthguidedtours.com</string>
+
+    <string name="art_name">Public Art Walking Tours</string>
+    <string name="art_address">St. Stephen\'s Green</string>
+    <string name="art_web">www.publicartwalkingtours.ie</string>
+
+    <string name="viking_name">Viking Splash Tours</string>
+    <string name="viking_address">St Stephen\'s Green North</string>
+    <string name="viking_web">www.VikingSplash.com</string>
+
+    <string name="kids_ghost_name">The Kids Ghost Tour</string>
+    <string name="kids_ghost_address">O\'Connell Street</string>
+    <string name="kids_ghost_web">www.dodublin.ie</string>
+
+
+
+
+
+
+
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

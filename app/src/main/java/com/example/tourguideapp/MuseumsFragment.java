@@ -29,12 +29,11 @@ public class MuseumsFragment extends Fragment {
         //Create a list of String
         final ArrayList<Information> info = new ArrayList<Information>();
 
-        info.add(new Information("National Museum Of Ireland", "Merrion Street", "www.museum.ie"));
-        info.add(new Information("Museum of Literature Ireland", "85/86 St. Stephens Green", "www.moli.ie"));
-        info.add(new Information("National Maritime Museum Of Ireland", "Dun Laoghaire", "www.mariner.ie"));
-        info.add(new Information("Geological Museum", "Trinity College", "www.tcd.ie"));
-        info.add(new Information("Fitzsimons Temple Bar", "21-22 Wellington Quay", "www.fitzsimonshotel.com"));
-        info.add(new Information("The National Leprechaun Museum", "1 Jervis Street", "www.leprechaunmuseum.ie"));
+        info.add(new Information(getResources().getString(R.string.national_museum_name), getResources().getString(R.string.national_museum_address), getResources().getString(R.string.national_museum_web)));
+        info.add(new Information(getResources().getString(R.string.literature_museum_name), getResources().getString(R.string.literature_museum_address), getResources().getString(R.string.literature_museum_web)));
+        info.add(new Information(getResources().getString(R.string.maritime_museum_name), getResources().getString(R.string.maritime_museum_address), getResources().getString(R.string.maritime_museum_web)));
+        info.add(new Information(getResources().getString(R.string.geological_museum_name),getResources().getString(R.string.geological_museum_address) , getResources().getString(R.string.geological_museum_web)));
+        info.add(new Information(getResources().getString(R.string.leprechaun_museum_name),getResources().getString(R.string.leprechaun_museum_address), getResources().getString(R.string.leprechaun_museum_web)));
 
         //Modify the code to create an ArrayAdapter so we can recycle the TextViews and save Memory
         //Remember modify the word_list XML to create a single ListView

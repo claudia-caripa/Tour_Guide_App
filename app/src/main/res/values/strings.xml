@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
 
+    <string name="dublin_app_name">Dublin Tour App</string>
+
     <!-- Category name for phrases [CHAR LIMIT=20] -->
     <string name="category_activities">Activities</string>
 

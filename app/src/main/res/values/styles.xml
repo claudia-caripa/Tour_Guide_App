@@ -28,6 +28,11 @@
         <item name="android:textColor">@android:color/white</item>
     </style>
 
+    <style name="TextViewStyle" parent="Theme.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
 
 
 </resources>

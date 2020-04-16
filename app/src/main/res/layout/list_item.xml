@@ -24,9 +24,7 @@
 
         <TextView
             android:id="@+id/name_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            style="@style/TextViewStyle"
             android:textAppearance="@android:style/TextAppearance.Medium"
             android:textColor="@android:color/black"
             android:textStyle="bold"
@@ -35,9 +33,7 @@
 
         <TextView
             android:id="@+id/address_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            style="@style/TextViewStyle"
             android:gravity="bottom"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
             android:textColor="@android:color/black"
@@ -45,9 +41,7 @@
 
         <TextView
             android:id="@+id/web_page_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+           style="@style/TextViewStyle"
             android:gravity="top"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
             android:textColor="@android:color/black"
